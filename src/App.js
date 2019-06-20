@@ -1,13 +1,17 @@
 import React from "react";
 import "./App.css";
-import Game from "./components/game";
+import Game from "./components/Game";
 import Banner from "./components/Banner";
+import Gamebox from "./components/Gamebox";
+import Footer from "./components/navigation/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Game />
       <Banner />
+      <Gamebox />
+      <Footer />
     </div>
   );
 }

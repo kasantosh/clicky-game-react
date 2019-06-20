@@ -1,14 +1,14 @@
 import React from "react";
 
-function Menu(props) {
+export default function Menu(props) {
   return (
-    <div className=" bg-danger p-3 text-light fixed-top mb-4">
+    <div className="menu p-3 text-light border-bottom fixed-top">
       <div className="row px-5 d-flex">
         <div className="col-4 d-flex align-items-center">
           <h1>Clicky Game</h1>
         </div>
         <div className="col-4 d-flex align-items-center justify-content-center">
-          <h3>You Guessed ...</h3>
+          <h3>Click on an image to begin</h3>
         </div>
         <div className="col-4 d-flex align-items-center justify-content-end">
           <h3>
@@ -19,5 +19,3 @@ function Menu(props) {
     </div>
   );
 }
-
-export default Menu;
