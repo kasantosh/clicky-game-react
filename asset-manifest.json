@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/clicky-game-react/static/css/main.9c76d2f8.chunk.css",
+    "main.js": "/clicky-game-react/static/js/main.aae0c216.chunk.js",
+    "main.js.map": "/clicky-game-react/static/js/main.aae0c216.chunk.js.map",
+    "runtime~main.js": "/clicky-game-react/static/js/runtime~main.4ef103c0.js",
+    "runtime~main.js.map": "/clicky-game-react/static/js/runtime~main.4ef103c0.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/clicky-game-react/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/clicky-game-react/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/clicky-game-react/index.html",
+    "precache-manifest.817b37167308e9012f8dc0f9eee7ba78.js": "/clicky-game-react/precache-manifest.817b37167308e9012f8dc0f9eee7ba78.js",
+    "service-worker.js": "/clicky-game-react/service-worker.js",
+    "static/css/main.9c76d2f8.chunk.css.map": "/clicky-game-react/static/css/main.9c76d2f8.chunk.css.map",
+    "static/media/App.css": "/clicky-game-react/static/media/blue-butterfly.56ece066.jpg"
+  }
+}
