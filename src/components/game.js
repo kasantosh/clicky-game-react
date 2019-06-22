@@ -8,7 +8,8 @@ export class Game extends Component {
   state = {
     score: 0,
     topScore: 0,
-    topmessage: "Click on an image to begin"
+    topmessage: "Click on an image to begin",
+    className: "gamebox"
   };
 
   boxlist = [
@@ -111,7 +112,8 @@ export class Game extends Component {
       } else {
         this.setState({
           topmessage: "Sorry you got it wrong!!",
-          score: 0
+          score: 0,
+          className: "gameboxshake"
         });
         this.shuffle(this.boxlist);
       }
@@ -128,7 +130,11 @@ export class Game extends Component {
           topmessage={this.state.topmessage}
         />
         <Banner />
-        <Gamebox images={this.boxlist} handleClick={this.handleClick} />
+        <Gamebox
+          images={this.boxlist}
+          handleClick={this.handleClick}
+          className={this.className}
+        />
         <Footer />
       </div>
     );
