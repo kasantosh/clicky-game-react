@@ -8,7 +8,7 @@ export default function Menu(props) {
           <h1>Clicky Game</h1>
         </div>
         <div className="col-4 d-flex align-items-center justify-content-center">
-          <h3>Click on an image to begin</h3>
+          <h3>{props.topmessage}</h3>
         </div>
         <div className="col-4 d-flex align-items-center justify-content-end">
           <h3>
